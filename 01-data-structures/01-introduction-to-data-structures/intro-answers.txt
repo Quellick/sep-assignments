@@ -1,0 +1,34 @@
+LINE.RB
+    1. How does your data structure allow developers to access and manipulate the data?
+        This data structure provides a clear representation of any real-world queue, 
+        that might involve anything joining a queue in an ordered fashion with the 
+        ability to step out of the queue at any time.  It does not have the ability 
+        to place something into that queue other than at the end.         
+    2. If a developer wanted to find a specific element in your data structure, how would you search for it?
+        You will be able to access the object by name using the "person" variable 
+        and performing a basic iteration through the list to search for the "person".  
+        Can easily be modified with a more robust search algorithm for larger queues.
+    3. What other real-world data can each structure represent?
+        This data structure could represent any number of real-world scenarios, 
+        from a mail sorting facility that received packages/letters one after 
+        another with the ability to eject a package if needed, really any general 
+        process where a queue is used to process requests in a sequence until 
+        the queue is empty.
+
+SCREEN.RB
+    1. How does your data structure allow developers to access and manipulate the data?
+        They can designate values for red, green and blue as well as the cordinates of the pixel at x and y.  
+        The function will keep the values within the specified ranges for valid colors. 
+        However there is no current limit to the pixel ranges so you will need to bare that in mind 
+        when developing for various mintor resolution ranges.  Though this could be added easily enough by using 
+        same method we used to validate color ranges.
+    2. If a developer wanted to find a specific element in your data structure, how would you search for it?
+        Using the x and y coordinates to identify specific pixels, you could also search by color to find all 
+        pixels with that color.. or color combo.  ( I am not certain I understand the question properly / don't
+        feel that I answered this question properly in relation to this data structure.)
+    3. What other real-world data can each structure represent?
+        This could represent any field or space where objects need to be placed in various orders or patterns.
+        For example a car factory likes to have all of its new cars sorted by color on the factor floor when they
+        come off the line, using this function would allow the floor manager to design the pattern that another
+        function could use to make sure the cars come off the line in the correct order and color to match the
+        "data structure" provided.
