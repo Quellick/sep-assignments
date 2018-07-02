@@ -1,0 +1,11 @@
+1.  How does your data structure allow developers to access and manipulate the data?
+        So similar to how the queue worked for this I only needed a "top" point for the stack and another "stack" array to fill with data.
+        Each element passed in is put at the "top" of the array ensuring that the last item placed into the stack is at the "top" or FILO.
+2.  If a developer wanted to find a specific element in your data structure, how would you search for it?
+        I would search the array using either the element name or index number if known.  Again I feel like I am not sure I am understanding this question correctly
+        as this answer seems to be getting repeated. If this question is asking what type of search algorythm I would use to search this structure that would 
+        depend on its size and how it was being used.
+3.  What other real-world data can each structure represent?
+        the stack to me most obvsiously represent a stack of papers in someones inbox.  someone walks by tosses a task in or whatever data is being collected there.
+        and it waits to be processed,  one would assume eventually that stack would be filled or some other indicator of when to stop filling the stack and start
+        to empty it otherwise the first item into the stack may never be processed as it would keep having newer items "stacked" ontop of it

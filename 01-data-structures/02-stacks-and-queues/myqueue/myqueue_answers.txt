@@ -1,0 +1,12 @@
+1. How does your data structure allow developers to access and manipulate the data?
+    Again I am not certain the correct way of answering this question in how it relates to the code I wrote besides just explaining the code.
+    I created an start point to add items to the queue (tail) I created a point to show to end of the queue or next task for processing (head).
+    The queue itself is an array (queue).  Then using the enqueue function it passes the elements into the queue array in the order received (FIFO).
+1. If a developer wanted to find a specific element in your data structure, how would you search for it?
+    As with my previous line data structure this is more or less the exact same thing except it only allows objects to be added to the end of the line and removed
+    only from the beginning, but searching the "queue" array by either (element) or index number if it is known.  If this question is asking what type of search algorythm
+    I would use to search this structure that would depend on its size or usage.
+1. What other real-world data can each structure represent? 
+    This could represent any queue situation that is more production oriented.. as the objects added will not change order or be removed.
+    Sequence of commands to execute, objects being processed for shipping, even a very structured line of people say like the DMV or similar 
+    situation were people are assigned a number.
