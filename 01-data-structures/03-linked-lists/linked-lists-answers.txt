@@ -1,0 +1,28 @@
+What is Spatial Locality and why does it benefit performance?
+
+    Its quite literal in actually looking for where in the memory something is located.. chache vs RAM for example.  Items in cache are much faster to access than
+    items stored in the RAM.  So limiting time accessing RAM to load items into Cache leads to performance increase.
+
+Compare the performance of an Array to a Linked List using the Benchmark module.
+
+    Compare the time it takes to create a 10,000 item Array to appending 10,000 items to a Linked List.
+        
+        Array       = 0.000026 sec
+        Linked List = 0.002525 sec
+
+        Linked List is over 97% slower
+
+    Compare the time it takes to access the 5000th element of the Array and the 5000th Node in the Linked List.
+
+        Array       = 0.000005 sec
+        Linked List = 0.000352 sec
+
+        Linkd List is 70%ish times slower
+
+    Compare the time it takes to remove the 5000th element from the Array to removing the 5000th Node in the Linked List.
+    In the Array, the 5001st item becomes the 5000th, and so on.
+
+        Array       = 0.000010 sec
+        Linked List = 0.000353 sec
+
+        Linked list is 35%ish times slower
