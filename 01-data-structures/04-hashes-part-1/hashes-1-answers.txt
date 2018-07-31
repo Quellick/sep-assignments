@@ -1,0 +1,19 @@
+Explain why doubling the size of the underlying array of your HashClass may be a poor idea.
+
+    I can imagine there are a few reasons this could be a bad idea.. the first that pops to mind is
+    unless there is some security involved it would be fairly easy to crash the system this is on by
+    just adding infinite items to the the hash array.  Also when the array is doubled all the enties need to be copied over
+    to the new array which is a memory heavy process.  Arrays are good at finding data when you know the index but if you need to search
+    to find what you want having a pool of data the doubles over and over but not all of it is data is just poor design or to put it another 
+    way "...just a terrible waste of space".
+    (not sure on correct terminology here, Am I adding items to an array that uses a hash or just adding items to the hash)
+
+    It could also create large amounts of fragmentation, the larger the hash becomes the more and more empty indexes there could 
+    potentially be between entries which is just a bad use of space, you could eventually end up with a scenario where adding just one item to your
+    array would result in an array so large your system couldn't deal with the results.  To that end for example if 
+    your array expandsbeyond its allocated memory it will need to be allocated a new memory space large enough to accomodate it, which is another costly 
+    process (given what can happen if you do not have enough memory especially).   
+
+
+
+
