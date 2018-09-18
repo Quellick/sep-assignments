@@ -1,0 +1,23 @@
+How much time does an average insertion consume in the Binary Search Tree compared to the Heap?
+                  user     system      total        real
+tree insert  0.330000   0.000000   0.330000 (  0.343733)
+heap insert  0.140000   0.000000   0.140000 (  0.140481)
+              user     system      total        real
+tree find    0.000000   0.000000   0.000000 (  0.000015)
+heap find    0.000000   0.000000   0.000000 (  0.000003)
+              user        system      total        real
+tree delete  0.000000   0.000000   0.000000 (  0.000005)
+heap delete  0.000000   0.000000   0.000000 (  0.000003)
+
+How much time does finding 50000 in the Binary Search Tree consume compared to the Heap?
+    Very little time for each but the Tree is about 3x the time frame compared to the heap.
+    It takes about 5x longer to find it in the tree compared to the heap.
+
+How much time does the average deletion consume in a Binary Search Tree compared to the Heap?
+    It takes almost 2x longer to delete with the tree compared to the heap.
+
+When would you use a Binary Search Tree and why?
+    I would use the Binary Search tree in situations where it called for that specific data structure regardless of speed or efficiency.
+
+When would you use an Heap and why?
+    I would use the Heap in the case where speed and efficiency was more of a priority compared to other needs.
