@@ -1,0 +1,9 @@
+class HashItem
+    attr_accessor :title
+    attr_accessor :actors
+  
+    def initialize(title, actors)
+      self.title = title
+      self.actors = actors
+    end
+  end
