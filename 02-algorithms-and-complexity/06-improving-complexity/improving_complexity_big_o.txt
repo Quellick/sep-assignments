@@ -1,0 +1,14 @@
+                 user     system      total        real
+version 1:  19.690000   0.010000  19.700000 ( 19.709342)
+version 2:   0.130000   0.000000   0.130000 (  0.129840)
+version 3:   0.120000   0.000000   0.120000 (  0.117662)
+
+
+Version 1 has a Big-O(n^2)
+--  Has code optimization that has minor improvements
+    in time and space, but the overall performance 
+    remains the same
+
+Version 2 & 3 have a Big-O(n log n)
+--  ver.2 code optimization improves on time and with minor improvement in space
+    ver.3 code optimization also improves on time and space
