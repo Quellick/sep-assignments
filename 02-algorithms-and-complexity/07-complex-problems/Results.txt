@@ -1,0 +1,82 @@
+#
+#  Results travelling between a 5 city list
+#
+Start at Albany, NY
+travel 322mi to Augusta, ME
+travel 582mi to Annapolis, MD
+travel 674mi to Atlanta, GA
+travel 674mi to Austin, TX
+travel 1845mi back to Albany, NY
+Total distance travelled: 4097mi
+
+Start at Atlanta, GA
+travel 672mi to Annapolis, MD
+travel 353mi to Albany, NY
+travel 322mi to Augusta, ME
+travel 322mi to Austin, TX
+travel 956mi back to Atlanta, GA
+Total distance travelled: 2625mi
+
+
+#
+#  Results travelling between a 17 city list
+#
+Start at Carson City, NV
+travel 131mi to Sacramento, CA
+travel 756mi to Phoenix, AZ
+travel 821mi to Denver, CO
+travel 679mi to Oklahoma City, OK
+travel 609mi to Jackson, MS
+travel 174mi to Baton Rouge, LA
+travel 441mi to Tallahassee, FL
+travel 490mi to Nashville, TN
+travel 211mi to Frankfort, KY
+travel 165mi to Indianapolis, IN
+travel 254mi to Lansing, MI
+travel 369mi to Madison, WI
+travel 804mi to Harrisburg, PA
+travel 220mi to Richmond, VA
+travel 171mi to Raleigh, NC
+travel 171mi to Albany, NY
+travel 2743mi back to Carson City, NV
+Total distance travelled: 9209mi
+
+Start at Jackson, MS
+travel 174mi to Baton Rouge, LA
+travel 441mi to Tallahassee, FL
+travel 490mi to Nashville, TN
+travel 211mi to Frankfort, KY
+travel 165mi to Indianapolis, IN
+travel 254mi to Lansing, MI
+travel 369mi to Madison, WI
+travel 804mi to Harrisburg, PA
+travel 220mi to Richmond, VA
+travel 171mi to Raleigh, NC
+travel 641mi to Albany, NY
+travel 1523mi to Oklahoma City, OK
+travel 680mi to Denver, CO
+travel 821mi to Phoenix, AZ
+travel 727mi to Carson City, NV
+travel 727mi to Sacramento, CA
+travel 2130mi back to Jackson, MS
+Total distance travelled: 10548mi
+
+Start at Raleigh, NC
+travel 170mi to Richmond, VA
+travel 220mi to Harrisburg, PA
+travel 293mi to Albany, NY
+travel 614mi to Lansing, MI
+travel 255mi to Indianapolis, IN
+travel 166mi to Frankfort, KY
+travel 210mi to Nashville, TN
+travel 415mi to Jackson, MS
+travel 174mi to Baton Rouge, LA
+travel 441mi to Tallahassee, FL
+travel 1001mi to Oklahoma City, OK
+travel 680mi to Denver, CO
+travel 821mi to Phoenix, AZ
+travel 727mi to Carson City, NV
+travel 131mi to Sacramento, CA
+travel 131mi to Madison, WI
+travel 957mi back to Raleigh, NC
+Total distance travelled: 7406mi
